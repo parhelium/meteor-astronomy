@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Model layer for Meteor',
-  version: '1.0.2',
+  version: '1.1.0',
   name: 'jagi:astronomy',
   git: 'https://github.com/jagi/meteor-astronomy.git'
 });
@@ -79,6 +79,7 @@ Package.onUse(function(api) {
     'lib/modules/fields/set_default.js',
     'lib/modules/fields/set.js',
     'lib/modules/fields/get.js',
+    'lib/modules/fields/raw.js',
     'lib/modules/fields/push.js',
     'lib/modules/fields/pop.js',
     'lib/modules/fields/pull.js',
@@ -148,6 +149,7 @@ Package.onTest(function(api) {
     'test/fields/fields_casting.js',
     'test/fields/fields_set.js',
     'test/fields/fields_get.js',
+    'test/fields/fields_raw.js',
     'test/fields/fields_push.js',
     'test/fields/fields_pop.js',
     'test/fields/fields_inc.js',
